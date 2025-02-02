@@ -1,0 +1,23 @@
+# Ignore compiled files
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.vcxproj*
+*.sln
+*.o
+
+# Ignore VS Code settings and build files
+.vscode/
+.vs/
+*.code-workspace
+
+# Ignore CMake or build system files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore logs and temporary files
+*.log
+*.tmp
